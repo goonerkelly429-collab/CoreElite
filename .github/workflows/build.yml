@@ -8,8 +8,8 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Build with Buildozer
-        # Corrected: Added the 'i' in Serebrennikov
-        uses: ArtemSerebrennikov/buildozer-action@v1
+        # Corrected name: ArtemSBulgakov
+        uses: ArtemSBulgakov/buildozer-action@v1
         with:
           buildozer_version: stable
           python_version: 3.11
