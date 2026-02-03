@@ -8,8 +8,8 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Build with Buildozer
-        # This uses the specific fix for the 'chown' error
-        uses: ArtemSBulgakov/buildozer-action@8627e77
+        # Updated from @8627e77 to @v1 to resolve the version error
+        uses: ArtemSBulgakov/buildozer-action@v1
         with:
           buildozer_version: stable
 
