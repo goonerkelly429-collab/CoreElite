@@ -1,4 +1,3 @@
-# Build Android APK - installs Android SDK command-line tools and build-tools (contains aidl)
 name: Build Android APK
 on: [push, pull_request]
 
